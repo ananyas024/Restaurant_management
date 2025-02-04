@@ -1,0 +1,82 @@
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40; /* Dark gray text */
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* White background for menu items */
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+  }
+  
+  .menu-content h3 {
+    margin: 0;
+    color: #495057; /* Gray text for item names */
+  }
+  
+  .menu-content p {
+    margin: 5px 0 0;
+    color: #6c757d; /* Light gray text for item prices */
+  }
+  
+  .delete-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button-container button {
+    padding: 5px 10px;
+    background-color: #dc3545; /* Red background for delete button */
+    color: #ffffff; /* White text for delete button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button-container button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  .order-details input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .order-details button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green background for add button */
+    color: #ffffff; /* White text for add button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .order-details button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
